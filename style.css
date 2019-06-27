@@ -1,0 +1,29 @@
+.left{
+    color: red;
+    font-size: 40px;
+}
+#t1{
+    color: aquamarine;
+
+}
+#t2{
+    color: bisque;
+}
+h1#t1{
+    background-color: brown;
+}
+.header l1{
+    color: blue;
+}
+.header>ul{
+    border: 1px solid #ccc;
+}
+.header>ul>li:nth-child(2){
+    background-color: aqua;
+}
+.header>ul>li:hover{
+    background-color: rgb(98, 0, 255);
+}
+ul::after{
+    content:"hello";
+}
